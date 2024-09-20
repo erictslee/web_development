@@ -1,3 +1,4 @@
+
 /* 게임 변수 3개 선언 */
 let startingPokerChips = 100; // points let players = 3;
 let noOfStarterCards = 2;
@@ -23,3 +24,4 @@ console.log(`Welcome! 챔피언십 타이틀은 ${playerOneName}, ${playerTwoNam
 let gameHasEnded = false;
 gameHasEnded = ((playerOnePoints + playerTwoPoints) == 0) || // 플레이어3 우승 ((playerTwoPoints + playerThreePoints) == 0) || // 플레이어1 우승 ((playerOnePoints + playerThreePoints) == 0); // 플레이어2 우승
 console.log("Game has ended: ", gameHasEnded);
+

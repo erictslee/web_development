@@ -1,20 +1,21 @@
+
 /* 게임 변수 3개 선언 */
 let startingPokerChips = 100; // points let players = 3;
 let noOfStarterCards = 2;
 /* 3개의 플레이어 시작 점수 할당 */
-let playerOnePoints = startingPokerChips; 
+let playerOnePoints = startingPokerChips; /*/////////*/
 let playerTwoPoints = startingPokerChips; 
 let playerThreePoints = startingPokerChips;
 /* 점수 배팅 */ q
 playerOnePoints -= 50; playerTwoPoints -= 25; playerThreePoints += 75;
 
 let myString1 = "Hello";
-let myString2 = "World";
+let myString2 = "World"; 
 myString1 + myString2 + "!"; //HelloWorld!
 myString1 + " " + myString2 + "!"; //Hello World!
 myString1 + ", " + myString2 + "!"; //Hello, World!
 
-let playerOneName = "Chloe";
+let playerOneName = "Chloee";
 let playerTwoName = "Jasmine";
 let playerThreeName = "Jen"
 
@@ -23,3 +24,4 @@ console.log(`Welcome! 챔피언십 타이틀은 ${playerOneName}, ${playerTwoNam
 let gameHasEnded = false;
 gameHasEnded = ((playerOnePoints + playerTwoPoints) == 0) || // 플레이어3 우승 ((playerTwoPoints + playerThreePoints) == 0) || // 플레이어1 우승 ((playerOnePoints + playerThreePoints) == 0); // 플레이어2 우승
 console.log("Game has ended: ", gameHasEnded);
+

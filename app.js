@@ -25,3 +25,7 @@ let gameHasEnded = false;
 gameHasEnded = ((playerOnePoints + playerTwoPoints) == 0) || // 플레이어3 우승 ((playerTwoPoints + playerThreePoints) == 0) || // 플레이어1 우승 ((playerOnePoints + playerThreePoints) == 0); // 플레이어2 우승
 console.log("Game has ended: ", gameHasEnded);
 
+aaaaa
+bbbbb
+ccccc
+ddddd
